@@ -1,5 +1,5 @@
 # VMC Project
-## A Simple integration project for HeltyAir VMC throught irda interface
+## A Simple integration project for HeltyAir VMC through irda interface
 
 The project is based on the following hw/sw components:
 - Raspberry Pi Zero W (https://www.raspberrypi.com/products/raspberry-pi-zero-w/)
