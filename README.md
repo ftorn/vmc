@@ -39,6 +39,18 @@ If you want to change the room name or the cmd names edit these two files:
 - api.py 
 - vmc.conf [lircd configuration file]
 
+Edit the 'api.py' file and change these two lines:
+```sh
+rooms = ['vmc']
+cmds = ['off', 'powerfull', 'up', 'down', 'cooling', 'light']
+```
+Edit the 'vmc.conf' file and change these lines:
+```sh
+name   vmc (begin remote section)
+name   COMMANDS (begin raw_codes)
+```
+
+
 If you want to expose a different tcp port (I use the default http port - 80) you could execute the api.py in this way (please you have to change the vmc.service file or you have to edit the api.py code):
 ```sh
 sudo ./api.py 8080
