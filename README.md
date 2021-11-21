@@ -8,6 +8,9 @@ The project is based on the following hw/sw components:
 - Lircd
 - Python3
 
+This is the first poc:
+![poc](/images/vmc.jpeg)
+
 ## Features
 
 - Multiroom support
@@ -65,4 +68,5 @@ curl "http://YOUR_IP/room=studio&cmd=up"
 ## ToDo
 
 - Modbus integration
+- Create a case (3d model for 3d printer)
 
