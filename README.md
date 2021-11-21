@@ -30,9 +30,9 @@ cd vmc
 sudo pip3 install -r requirements.txt
 sudo mv vmc.conf /etc/lirc/lircd.conf.d
 sudo systemctl restart lircd
-sudo cp vmc.service /lib/systemd/system/
-sudo systemctl enable vmc
+sudo cp vmc.service /lib/systemd/
 sudo mv api.py /home/pi/
+sudo systemctl enable vmc
 ```
 If you want to change the room name or the cmd names edit these two files:
 
